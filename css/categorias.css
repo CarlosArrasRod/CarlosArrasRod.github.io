@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(248 210 136);
+    font-family: 'Noto Serif Georgian', sans-serif;
+}
+header h1{
+    
+    font-family: 'Combo', cursive;
+    color: aqua;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #4f84f5;
+    border-bottom: 2px solid #dbe460 ;
+    position: fixed;
+    z-index: 10;    
+}
+header h1{
+    width: 20%; 
+    float: left;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+header nav{
+    width: 60%;
+    float: right;
+    margin-top: 24px;
+    margin-right: 10%;
+}
+header > nav > ul >li{
+    list-style: none;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+header > nav > ul > li > a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    
+} 
+ a:hover{
+    font-weight: bold;
+    opacity: 0.5;
+    color: antiquewhite;
+}
+
+section{
+    height: 698px;
+    width: 100%;
+}
+section > div#links{
+    height: 100%;
+    width: 15%;
+    background-color: #4772ce;
+    float: left;
+    margin-top: 60px;
+    
+}
+
+section > div > ul > li{
+    margin-top: 20px;
+}
+
+section > div > ul > li > a{
+    font-family: 'Combo', cursive;
+    font-size: 1.5rem;
+    color: black;
+    float: left;
+}
+
+section > div#P{
+    height: 100%;
+    width: 85%;
+    background-color: rgb(231, 225, 213);
+    float: right;
+    margin-top: 60px;
+}
+
+section > div#P > div{
+    height: 40%;
+    width: 25%;
+    background-color: #e7c072;
+    float: left;
+    margin-left: 6%;
+    margin-top: 50px;
+    
+}

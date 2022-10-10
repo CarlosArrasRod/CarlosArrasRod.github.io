@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(248 210 136);
+    font-family: 'Noto Serif Georgian', sans-serif;
+}
+header h1{
+    
+    font-family: 'Combo', cursive;
+    color: aqua;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #4f84f5;
+    border-bottom: 2px solid #dbe460 ;
+    position: fixed;
+    z-index: 10;    
+}
+header h1{
+    width: 20%; 
+    float: left;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+header nav{
+    width: 60%;
+    float: right;
+    margin-top: 24px;
+    margin-right: 10%;
+}
+header nav ul li{
+    list-style: none;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+header > nav > ul > li > a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    
+} 
+header > nav > ul > li > a:hover{
+    font-weight: bold;
+    opacity: 0.5;
+    color: antiquewhite;
+}
+
+section > div{
+    width: 40%;
+    height: 500px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+section > div:nth-child(1){
+    width: 40%;
+    height: 500px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+section > div:nth-child(2){
+    width: 40%;
+    height: 500px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+
+section > div > button >img{
+    width: 350px;
+    height: 400px;  
+}
+
+section > div > button:hover{
+    border-radius: 5px;
+    
+}

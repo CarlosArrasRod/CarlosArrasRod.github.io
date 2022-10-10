@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(248 210 136);
+    font-family: 'Noto Serif Georgian', sans-serif;
+}
+h1{
+    
+    font-family: 'Combo', cursive;
+    color: aqua;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #4f84f5;
+    border-bottom: 2px solid #dbe460 ;
+    position: fixed;
+    z-index: 10;    
+}
+header h1{
+    width: 20%; 
+    float: left;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+header nav{
+    width: 60%;
+    float: right;
+    margin-top: 24px;
+    margin-right: 10%;
+}
+header nav ul li{
+    list-style: none;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+header > nav > ul > li > a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    
+} 
+header > nav > ul > li > a:hover{
+    font-weight: bold;
+    opacity: 0.5;
+    color: antiquewhite;
+}
+
+
+
+#informacion{
+    width: 100%;
+    height: 500px;
+    float: left;  
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#informacion > #info{
+    width: 40%;
+    height: 350;
+    float: right;
+    font-family: 'Noto Serif Georgian', sans-serif;
+    font-size: 1.5rem;
+    float: right;
+    margin-right: 180px;
+    margin-top: 80px;
+    
+}
+
+#informacion > #info > #i{
+   margin-top: 150px;
+}
+
+#informacion > #img{
+    width: 30%;
+    height: 350px;
+    float: left;
+    margin-top: 50px;
+
+}
+
+
+
+
+#contact{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#contact .columna{
+    width: 50%;
+    float: left;
+    background-color: rgb(75, 196, 155);
+}
+#contact > h2{
+    text-align: left;
+    text-transform: uppercase;
+}
+#contact > .columna > form >fieldset{
+    padding: 10px;
+    border: none;
+}
+#contact > .columna > form > fieldset > label{
+    display: block;
+    margin-top: 5px;
+}
+#contact > .columna > form > fieldset > input{
+    display: block;
+    margin-top: 5px;
+    border-width: 2px;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 40px;
+    color: rgb(68, 66, 66);
+}
+#contact > .columna > form > fieldset > textarea{
+    display: block;
+    margin-top: 5px;
+    border: 1px;
+    background-color: antiquewhite;
+    width: 100%;
+}
+
